@@ -1,0 +1,157 @@
+
+body{
+	background-color: #203032;
+}
+
+.container{
+	perspective: 500px;
+}
+
+img{
+	max-width: 100%;
+	width: auto;
+	max-height: 90px;
+	height: auto;
+	border-radius: 7px;
+}
+
+.the-table{
+	background: radial-gradient(circle at 40% 70%, #54a879 5%, #54a879 9%, #439d6b 10%, #439d6b 15%, #228457 16%, #228457 20%, #1f7b52 21%, #1f7b52 34%, #17734a 35%, #17734a 46%, #106a42 47%, #106a42 67%, #09613a 68%, #09613a 80%, #065832 81%, #065832 100%);
+	background-position: 25% 75%;
+	border: 20px solid #541900;
+	padding: 30px 0px;
+	margin-top: 50px;
+	border-radius: 20px 20px 100% 100%;
+	max-width: 100%;
+	min-height: 600px;
+	transform: rotateX(25deg);
+	box-shadow: 5px 5px 5px #000 inset;
+}
+
+.player-total,.dealer-total{
+	color: white;
+	text-shadow: -3px 3px 3px black;
+}
+
+.dealer-hand-wrapper{
+	/* border: 5px dashed #f46f92; */
+}
+
+.player-hand-wrapper{
+	/* border: 5px dashed #f6ff92; */
+	max-width: 1000px;
+	position: absolute;
+	top: 444px;
+	left: 168px;
+}
+
+.card{
+	height: 100px;
+	/* background-color: white; */
+	margin: 10px;
+	width: 12.6%;
+	float: left;
+	position: relative;
+	transform-style: preserve-3d;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card-2{
+	top: -20px;
+	left: 20px;
+}
+
+.card-3{
+	top: -40px;
+	left: 40px;
+}
+
+.card-4{
+	top: -60px;
+	left: 60px;
+}
+
+.card-5{
+	top: -80px;
+	left: 80px;
+}
+
+.card-6{
+	top: -100px;
+	left: 100px;
+}
+
+.front, .back{
+	min-height: 100px;
+	width: 100%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;  
+}
+
+.front{
+	transform: rotateY(180deg);
+}
+
+.flip{
+	transform: rotateY(180deg);
+	transition: 1s ease;
+}
+
+.message{
+	text-align: center;
+	height: 20px;
+	color: white;
+}
+
+.deal-button, .hit-button, .stand-button{
+	position: absolute;
+	top: 217px;
+}
+
+.deal-button{
+	left: 117px;
+}
+.hit-button{
+	left: 19px;
+}
+.stand-button{
+	left: -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
