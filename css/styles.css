@@ -16,8 +16,10 @@ img{
 }
 
 .the-table{
-	background: radial-gradient(circle at 40% 70%, #54a879 5%, #54a879 9%, #439d6b 10%, #439d6b 15%, #228457 16%, #228457 20%, #1f7b52 21%, #1f7b52 34%, #17734a 35%, #17734a 46%, #106a42 47%, #106a42 67%, #09613a 68%, #09613a 80%, #065832 81%, #065832 100%);
-	background-position: 25% 75%;
+	/* background: radial-gradient(circle at 40% 70%, #54a879 5%, #54a879 9%, #439d6b 10%, #439d6b 15%, #228457 16%, #228457 20%, #1f7b52 21%, #1f7b52 34%, #17734a 35%, #17734a 46%, #106a42 47%, #106a42 67%, #09613a 68%, #09613a 80%, #065832 81%, #065832 100%); */
+	background-position: center;
+	background-image: url('../cards/blackjack-table.png');
+	background-size: cover;
 	border: 20px solid #541900;
 	padding: 30px 0px;
 	margin-top: 50px;
